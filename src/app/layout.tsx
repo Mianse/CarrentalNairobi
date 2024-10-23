@@ -3,7 +3,7 @@ import "./globals.css";
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css'
 import '@mantine/dates/styles.css'
-
+import Navbar from "@/components/Navbar/index";
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 
 export const metadata: Metadata = {
@@ -22,7 +22,9 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body>
-      <MantineProvider>{children}</MantineProvider>
+      <MantineProvider>
+      <Navbar/>
+      {children}</MantineProvider>
 
       </body>
     </html>
