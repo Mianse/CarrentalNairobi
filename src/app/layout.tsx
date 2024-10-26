@@ -8,7 +8,7 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 
 export const metadata: Metadata = {
   title: "Car Rental App",
-  description: "Rrnt Cars anywhere,hop in ,Ride on",
+  description: "Rent dit fix --forceCars anywhere,hop in ,Ride on",
 };
 
 export default function RootLayout({
