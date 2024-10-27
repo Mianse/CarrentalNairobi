@@ -1,3 +1,4 @@
+"use client"
 import { Container } from '@mantine/core';
 import React from 'react';
 import Slide from './Slide';
@@ -11,6 +12,7 @@ const Hero = () => {
       <Container>
       <SearchEngine/>
       </Container>
+      
     </Container>
   );
 }
