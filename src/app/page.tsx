@@ -1,11 +1,11 @@
-import styles from './page.module.css'
-import { Button } from "@mantine/core";
+
+import Hero from '@/features/Landing/Hero';
 
 
 export default function Home() {
   return (
     <div className="">
-      hello next js <Button className={styles.btn}>Click me</Button>
+     <Hero/>
     </div>
   );
 }

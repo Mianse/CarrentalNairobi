@@ -1,0 +1,7 @@
+.hero{
+   background-color: rgba(hsl(14, 96%, 46%)); 
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 1rem;
+}
